@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Switzera ADF Regular';
   color: #444444;
 }
 
@@ -23,14 +23,21 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  
-}
+h2{font-family: 'Switzera ADF Bold Cond'; color:#000000; font-size:48px; line-height:75px;}
 /* CSS Document */
+
+.section-gap{padding:90px 0;}
+.section-title{padding-bottom:30px; text-align:center;}
+.section-title span{color:#1f6fff;}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; background:#393939; z-index:100;
+}
 .topbg{position:absolute; right:0; z-index:99999;}
 .mdlbgright{position:absolute; z-index:99999; top:-150px; right:0;}
 .mdlbgleft{position:absolute; z-index:99999; top:-200px; left:0;}
@@ -64,5 +71,61 @@ h1, h2, h3, h4, h5, h6 {
 .howsection .icon-box .icon.icon-2{background:#fff; border: 1px solid #1F6FFF;}
 .howsection .icon-box a{color:#1F6FFF; font-size:16px;}
 .howradius{border-radius:20px; border: 1px solid #1F6FFF; padding:15px;}
-.howsection .icon-box h3{margin-top:35px; font-size:24px; color:#000000; margin-bottom:30px;}
+.howsection .icon-box h3{margin-top:35px; font-size:22px; color:#000000; margin-bottom:30px;}
 .howsection .icon-box p{font-size:16px; color:#000;}
+
+/*--------------------------------------------------------------
+# Wide Solutions Section
+--------------------------------------------------------------*/
+.homegrid{padding-bottom:35px;}
+
+.newitems{display: flex; flex-direction: row;}
+.newitems:nth-child(odd) .imgsection{order: 2;}
+.newitems:nth-child(even) .imgsection{order: 1;}
+
+.newitems:nth-child(odd) .gridcontent{order: 1;}
+.newitems:nth-child(even) .gridcontent{order: 2;}
+
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.teamsection{background:#1F6FFF; padding:58px 0 120px;}
+.teamsection .icon-box{border-radius:20px; background:#fff; padding:25px; position:relative; z-index:0; min-height:360px;}
+.teamsection .icon{background:#1F6FFF; width:125px; height:125px; border-radius:100%; font-size:16px; color:#fff; position:absolute; top:-66px; z-index:1; display:flex; align-items:center; justify-content:center; border:2px solid #1f6fff; overflow:hidden; background:#fff;}
+.teamsection .icon-box h3{margin-top:65px; font-size:24px; line-height:32px; color:#000000; line-height:24px;}
+.teamsection .icon-box h4{color:#1F6FFF;}
+.teamsection h2{color:#fff;}
+
+/*--------------------------------------------------------------
+# Mission Section
+--------------------------------------------------------------*/
+.missionsection{margin-top:50px;}
+.missionsection .position-absolute{background:#1F6FFF; border-radius:0px 4px 4px 0;}
+.marg-top30{margin-top:30px;}
+.missioncol{width:67%; padding:75px 80px;}
+.missioncol h3{color:#fff;}
+.missioncol p{color:#fff;}
+
+/*--------------------------------------------------------------
+# About Us Section
+--------------------------------------------------------------*/
+.aboutsection{padding:50px 0;}
+.about-title{text-align:center; max-width:65%; margin:0 auto;}
+
+/*--------------------------------------------------------------
+# Contact Us Section
+--------------------------------------------------------------*/
+.contactsection .contact-title{text-align:center; max-width:70%; margin:0 auto;}
+.contact-col{max-width:80%; margin:0 auto;}
+.contact-col .form-group{margin:0px 0 15px;}
+.contact-col .form-group textarea{height:100px;}
+.contact-col .btn.btn-primary{width:100%;}
+.cont-info h3{font-size:24px; color:#000;}
+.cont-info p{font-size:13px; color:#000;}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+.footer{max-width:68%; margin:25px auto 0; border-top:2px dashed #DCE3EB; font-size:14px;}
+.footer ul{margin:0 0 10px; padding:0; text-align:right;}
+.footer li{list-style:none; display:inline; margin:0px 5px;}
