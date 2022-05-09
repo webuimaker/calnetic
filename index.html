@@ -56,8 +56,11 @@
 			<div class="row">
 				<div class="col-xl-9">
 					<h1>Your Goals. Our Software <br /><span>Development Expertise</span></h1>
-					<h2>Your Goals. Our Software<br /><span>Development Expertise</span></h2>
+					<h2>Together,  They'll Transform<br /><span>Your Business.</span></h2>
 					<p>Are you a startup with a category-changing SaaS idea? Or a company that's already proven itself but has even bigger plans? Our software development and engineering expertise, our methodology and our commitment will deliver both the custom solution you need, and the success you deserve</p>
+					<section id="section10" class="demo">
+					  <a href="#howsection"><span></span>Scroll</a>
+					</section>
 				</div>
 			</div>
 		</div>
@@ -65,7 +68,7 @@
   
   
   <!-- ======= How We Section ======= -->
-  <section class="howsection">
+  <section class="howsection" id="howsection">
   	<div class="mdlbgright"><img src="assets/img/mdl-union.svg" class="img-fluid" alt=""></div>
 	<div class="mdlbgleft"><img src="assets/img/Union2.svg" class="img-fluid" alt=""></div>
 	
@@ -173,7 +176,7 @@
 	  <!-- ======= Wide Range Solutions ======= -->
 	  <div class="widerangesection">
 	  	<div class="container">
-			<div class="section-title"><h2>A wide range of clients <span>and solutions</span></h2></div>
+			<div class="section-title"><h2>A wide range of clients. <span>and solutions.</span></h2></div>
 			<div class="row homegrid">
 				<div class="col-lg-12 col-md-12 newitems align-items-center">
 					<div class="col-lg-6 col-md-6 gridcontent">
@@ -251,7 +254,7 @@
   	<div class="row">
 		<div class="col-md-6 p-0">
 			<div class="bluebox">
-				<h3>Our Mission</h3>
+				<h3>Our Mission.</h3>
 				<p>Our entire careers have been dedicated to providing the best software solutions to companies whose very success could depend upon how effectively our software helps them to achieve their goals. This is why our Mission has always been — and continues to be — to dedicate all of our skills, our expertise, drive and commitment to the goal of helping each client successfully transform their business, and the world.</p>
 				<div class="missionbg"><img src="assets/img/mission-bg.svg" class="img-fluid" alt=""></div>
 			</div>
@@ -386,6 +389,14 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
-} </script>
+}
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+</script>
   </body>
 </html>
