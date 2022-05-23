@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Switzera ADF Regular';
+  /* font-family: 'Switzera ADF Regular'; */
+  font-family: 'Switzer', sans-serif;
   color: #444444;
   font-size:16px;
 }
@@ -24,7 +25,10 @@ a:hover {
   text-decoration: none;
 }
 
-h2{font-family: 'Switzera ADF Bold Cond'; color:#000000; font-size:48px; line-height:75px;}
+h2{
+  /* font-family: 'Switzera ADF Bold Cond';  */
+  font-family: 'Switzer', sans-serif;
+  color:#000000; font-size:48px; line-height:75px;}
 /* CSS Document */
 
 .section-gap{padding:49px 0;}
@@ -75,7 +79,10 @@ h2{font-family: 'Switzera ADF Bold Cond'; color:#000000; font-size:48px; line-he
 .howsection .icon-box .icon.icon-2{background:#fff; border: 1px solid #1F6FFF;}
 .howsection .icon-box a{color:#1F6FFF; font-size:16px;}
 .howradius{border-radius:20px; border: 1px solid #1F6FFF; padding:15px;}
-.howsection .icon-box h3{margin-top:35px; font-size:16px; color:#000000; margin-bottom:30px;  font-family: 'Switzera ADF Medium';}
+.howsection .icon-box h3{margin-top:35px; font-size:16px; color:#000000; margin-bottom:30px;
+    /* font-family: 'Switzera ADF Medium'; */
+    font-family: 'Switzer', sans-serif;
+  }
 .howsection .icon-box p{font-size:16px; color:#000;}
 
 /*--------------------------------------------------------------
@@ -100,7 +107,10 @@ h2{font-family: 'Switzera ADF Bold Cond'; color:#000000; font-size:48px; line-he
 .newitems:nth-child(odd) .gridcontent{order: 1;}
 .newitems:nth-child(even) .gridcontent{order: 2;}
 
-.homegrid h3{font-size:18px; color:#000000; margin-bottom:30px;  font-family: 'Switzera ADF Medium';}
+.homegrid h3{font-size:18px; color:#000000; margin-bottom:30px;  
+  font-family: 'Switzer', sans-serif;
+  /* font-family: 'Switzera ADF Medium'; */
+}
 .homegrid a{color:#1F6FFF;}
 
 
@@ -140,7 +150,10 @@ h2{font-family: 'Switzera ADF Bold Cond'; color:#000000; font-size:48px; line-he
 # Contact Us Section
 --------------------------------------------------------------*/
 .contactsection .contact-title{text-align:center; max-width:70%; margin:0 auto 40px;}
-.contact-title h3{font-family: 'Switzera ADF Bold Cond'; font-size:38px; color:#000; line-height:42px;}
+.contact-title h3{
+  /* font-family: 'Switzera ADF Bold Cond'; */
+  font-family: 'Switzer', sans-serif; 
+  font-size:38px; color:#000; line-height:42px;}
 .contact-title h3 span{color:#1F6FFF;}
 .contact-col{max-width:80%; margin:0 auto;}
 .contact-col .form-group{margin:0px 0 15px;}
