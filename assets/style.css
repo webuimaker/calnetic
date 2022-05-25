@@ -122,7 +122,7 @@ h2{
 .teamsection{background:#1F6FFF; padding:58px 0 120px;}
 .teamsection .icon-box{border-radius:20px; padding:25px; position:relative; z-index:0; min-height:360px; background:url(img/Union1222.png) no-repeat right top #fff;}
 .teamsection .icon{background:#1F6FFF; width:125px; height:125px; border-radius:100%; font-size:16px; color:#fff; position:absolute; top:-66px; z-index:1; display:flex; align-items:center; justify-content:center; border:2px solid #1f6fff; overflow:hidden; background:#fff;}
-.teamsection .icon-box h3{margin-top:65px; font-size:24px; line-height:32px; color:#000000; line-height:24px;}
+.teamsection .icon-box h3{margin-top:25px; font-size:24px; line-height:32px; color:#000000; line-height:24px;}
 .teamsection .icon-box h4{color:#1F6FFF;}
 .teamsection h2{color:#fff;}
 .circle{border-radius:100%; border:20px solid #e9f1ff;}
@@ -165,6 +165,9 @@ h2{
 .cont-info h3{font-size:24px; color:#000;}
 .cont-info p{font-size:13px; color:#000;}
 
+.d-none-desktop{display:none;}
+.social-top{display:none;}
+
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
@@ -173,6 +176,32 @@ h2{
 .footer li{list-style:none; display:inline; margin:0px 5px;}
 .footer-right{width: auto; float: right;}
 .footer-left{position:absolute; bottom:-80px;}
+
+.carouselsection{display:none;}
+.owl-theme .owl-nav [class*="owl-"]{border-radius:0 !important;}
+.carouselsection .owl-theme .owl-nav{position:absolute; margin-top:0; width:100%; top:47%;}
+.carouselsection .owl-prev{position:absolute; left:-70px; background:url(../images/prev.png) no-repeat; width:37px; height:65px; text-indent:-9999px;}
+.carouselsection .owl-next{position:absolute; right:-70px; background:url(../images/next.png) no-repeat;width:37px; height:65px; text-indent:-9999px;}
+.carouselsection .owl-carousel .owl-nav.disabled{display:block;}
+.carouselsection .owl-theme .owl-dots .owl-dot span{background:#FFFFFF; opacity:0.5;}
+.carouselsection .owl-theme .owl-dots .owl-dot.active span{background:#FFFFFF !important; opacity:1;}
+.carouselsection .owl-theme .owl-dots{margin-top:20px;}
+
+.carouselnew{text-align:center; display:none;}
+.carouselnew h2{text-align:center; color:#1F6FFF; font-size:16px; line-height:inherit;}
+.carouselnew h2::after{content: '';
+display: block;
+margin: 6px auto 0;
+width: 10px;
+height: 10px;
+-moz-border-radius: 7.5px;
+-webkit-border-radius: 7.5px;
+border-radius: 7.5px;
+background-color: #1F6FFF;}
+.carouselnew .owl-two .owl-item a{display:inline-block;}
+.carouselnew .owl-two .owl-item a img{max-width:100%; width:auto; display:inline;}
+.carouselnew .owl-theme .owl-dots .owl-dot span{background:#FF5128; opacity:0.5;}
+.carouselnew .owl-theme .owl-dots .owl-dot.active span{background:#FF5128 !important; opacity:1;}
 
 /*--------------------------------------------------------------
 # Scroll To Bottom 
@@ -262,7 +291,7 @@ h2{line-height:1.3;}
 .contact-title h3{font-size:22px; line-height:24px;}
 .footer-left{display:none;}
 .newitems{flex-direction:column; margin-bottom:30px;}
-.teamsection .icon-box{margin-bottom:75px;}
+.teamsection .icon-box{margin-bottom:45px;}
 .bluebox{padding:20px; width:96%;}
 .img-right{margin:0 0 0 20px;}
 #section10{margin-top:40px;}
@@ -292,6 +321,21 @@ h2{line-height:1.3;}
 .missionsection .mobimg{display:block; width:111%; margin-bottom:20px;}
 .aboutsection .aboutbg{display:none;}
 .about-title{max-width:inherit;}
+.d-none-desktop{display:block;}
+.contact-col{max-width:inherit;}
+.missionbg{display:none;}
+.contact-col .form-control{border:1px solid rgba(0, 0, 0, 0.1); border-radius:14px;}
+.footer{max-width:inherit; text-align:center;}
+.footer ul{text-align:center; margin:0px 0 8px;}
+.carouselsection{display:block; overflow:hidden;} 
+.display-none-mob{display:none;}
+.carouselnew{display:block;}
+.navbar{background:#393939;}
+.social-top{display:block; border-top:2px dashed #f1f1f1; margin:15px 0;}
+.social-top ul{text-align:center; margin:15px 0 0 0; padding:0;}
+.social-top li{list-style:none; display:inline; margin:0px 5px;}
+.social-top li a{color:#fff;}
+.navbar-nav{text-align:center;}
 }
 
 @media screen and (max-width:479px){}
