@@ -201,14 +201,14 @@ footer:
 social:
   enable: true
   items:
-  - icon: "fab fa-facebook-f"
+  - icon: "/assets/img/linkedin.svg"
+    title: "linkedin"
+    link: "#"
+  - icon: "/assets/img/facebook.svg"
     title: "facebook"
     link: "#"
-  - icon: "fab fa-twitter"
-    title: "twitter"
-    link: "#"
-  - icon: "fab fa-linkedin-in"
-    title: "linkedin"
+  - icon: "/assets/img/skype.svg"
+    title: "skype"
     link: "#"
 
       
